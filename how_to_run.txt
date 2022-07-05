@@ -1,0 +1,7 @@
+1> Download the dataset from Stanford Large Network Dataset Collection(SNAP).
+2> Unzip it and place the extracted file in dataset folder.
+3> Run `Pyspark_Core.ipynb` on the text file.
+4> Build node_ids file using the utility function `util.py`.
+5> Run `pr_graphx.scala` using the original data and output of the utility function.
+6> Compare top 10 results found from both implementations.
+7> Compare time of both implementations.
